@@ -1,0 +1,27 @@
+.main-nav {
+  margin-top: 10px ;
+  list-style: none; /** quita los puntos de la lista */
+  padding-left: 0%;
+  background-color: rgb(238, 158, 89);
+}
+.main-nav__item {
+  display: inline-block;
+}
+.main-nav__item a {
+  color: rgb(249, 243, 231);
+  padding: 5px;
+  border-radius: 30px;
+  text-decoration: none; /** quita la linea debajo */
+  /* background-color: brown; */
+}
+/** Pseudo clases */
+.main-nav__item a:hover {
+  color: darkred;
+}
+.main-nav__item a:active {
+  color: royalblue;
+}
+/** Pseudo elemento */
+.main-nav__item a::after {
+  content: " | ";
+}

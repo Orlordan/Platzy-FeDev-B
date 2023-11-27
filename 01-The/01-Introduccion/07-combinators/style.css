@@ -1,0 +1,29 @@
+
+div {
+  background-color: grey;
+}
+
+/** mas cercano 
+h2 + p {
+  color: blue;
+} */
+
+/** general  
+h2 ~ p {
+  color: rgb(247, 10, 133);
+ } */
+
+/**  Hijo directo */ 
+ /* div > p {
+  color: crimson;
+ } */
+
+ /** descendiente */ 
+ div p {
+  color: crimson;
+ }
+
+
+
+
+  

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&family=Rubik+Iso&family=Shantell+Sans:ital,wght@0,400;1,700&display=swap');
+:root {
+  --thistle: #F0D3F7;
+  --puce: #B98EA7;
+  -mountbittePink: #A57982;
+  --spaceCadet: #302F4D;
+  --rusianViolet:#120D31;
+}
+body {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-family: 'Rubik Iso', cursive;
+  font-family: 'Shantell Sans', cursive;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right bottom, #302f4d, #514564, #735c7b, #967491, #b98ea7);
+  height: 100vh;
+}
+.main-container {
+  display: grid;
+  grid-template: repeat(15, 1fr) / repeat(15, 1fr);
+  height: 100vh;
+}
+/* -----------------Titulo-------------- */
+.title {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-column: 6 / 11;
+  grid-row: 2 / 3;
+  
+}
+.title h1 {
+  margin: 0;
+  color: #120D31;
+
+}
+/* -------------------Cuadros-------------- */
+.cuadro-1 {
+  grid-column: 3 / 6;
+  grid-row: 4 / 13;
+  border: 4px solid #F0D3F7;
+  border-radius: 5%;
+  display: grid;
+  grid-template: repeat(15, 1fr) / repeat(10, 1fr);
+}
+.cuadro-2 {
+  grid-column: 7 / 10;
+  grid-row: 4 / 13;
+  border: 4px solid #F0D3F7;
+  border-radius: 5%;
+  display: grid;
+  grid-template: repeat(15, 1fr) / repeat(10, 1fr);
+}
+.cuadro-3 {
+  grid-column: 11 / 14;
+  grid-row: 4 / 13;
+  border: 4px solid #F0D3F7;
+  border-radius: 5%;
+  display: grid;
+  grid-template: repeat(15, 1fr) / repeat(10, 1fr);
+}
+/* -------------------Cuadro1-ciculos-------------- */
+.title-cuadro-1 {
+  grid-column: 3 / 9;
+  grid-row: 1 / 3;
+  text-align: center;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  color: #120D31;
+}
+.circulo-3-cuadro-1 {
+  border: 4px solid #120D31  ;
+  border-radius: 50%;
+  grid-column: 4 / 8;
+  grid-row: 5 / 11;
+}
+.circulo-2-cuadro-1 {
+  border: 4px solid #120D31 ;
+  border-radius: 50%;
+  grid-column: 5 / 7;
+  grid-row: 5 / 11;
+}
+.circulo-1-cuadro-1 {
+  border: 4px solid #120D31 ;
+  border-radius: 50%;
+  grid-column: 3 / 9;
+  grid-row: 5 / 11;
+}
+.description-cuadro-1 {
+  grid-column: 2 / 10;
+  grid-row: 12 / 15;
+  text-align: center;
+  color: #120D31;
+
+}
+/* -------------------Cuadro1-hojas-------------- */
+.title-cuadro-2 {
+  grid-column: 3 / 9;
+  grid-row: 1 / 3;
+  text-align: center;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  color: #120D31;
+
+}
+.tri-3-cuadro-2 {
+  border: 5px solid #120D31;
+  grid-column: 5 / 7;
+  grid-row: 7 / 9;
+}
+.tri-2-cuadro-2 {
+  border: 4px solid #120D31;
+  grid-column: 4 / 8;
+  grid-row: 6 / 10;
+}
+.tri-1-cuadro-2 {
+  border: 4px solid #120D31;
+  grid-column: 3 / 9;
+  grid-row: 5 / 11;
+}
+.description-cuadro-2 {
+  grid-column: 2 / 10;
+  grid-row: 12 / 15;
+  color: #120D31;
+  text-align: center;
+
+}
+/* -------------------Cuadro1-x-------------- */
+.title-cuadro-3 {
+  grid-column: 3 / 9;
+  grid-row: 1 / 3;
+  text-align: center;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  color: #120D31;
+
+}
+.tri-3-cuadro-3 {
+  border: 5px solid #120D31;
+  border-radius: 100% 0 100% 0;
+  grid-column: 5 / 7;
+  grid-row: 7 / 9;
+}
+.tri-2-cuadro-3 {
+  border: 4px solid #120D31 ;
+  border-radius: 100% 0 100% 0;
+  grid-column: 4 / 8;
+  grid-row: 6 / 10;
+}
+.tri-1-cuadro-3 {
+  border: 4px solid #120D31 ;
+  border-radius: 100% 0 100% 0;
+  grid-column: 3 / 9;
+  grid-row: 5 / 11;
+}
+.description-cuadro-3 {
+  grid-column: 2 / 10;
+  grid-row: 11 / 15;
+  color: #120D31;
+  text-align: center;
+
+}

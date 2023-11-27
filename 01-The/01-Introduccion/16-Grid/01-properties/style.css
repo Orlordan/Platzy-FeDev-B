@@ -1,0 +1,22 @@
+.container {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  /* cuantas columnas y ancho */
+  grid-template-rows: 100px 200px; 
+/*   grid-template-rows: 150px 250px;*/
+/* define el tamaño tendra la fila o columna, si se creara mas serias de 150  */  
+  grid-auto-columns: 100px ;
+  /* crea nuevas columnas en lugar de nuevas filas */ 
+  grid-auto-flow: column;
+  /* espacion entre filas */
+  /* row-gap: 15px;
+  /* espacion entrer columnas */
+  /* column-gap: 30px; */
+  gap: 40px;
+
+}
+.item {
+  border: 5px solid #00bcd4;
+  font-size: 4em;
+}

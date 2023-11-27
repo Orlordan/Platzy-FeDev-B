@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  height: 5vh;
+  background-color: black;
+  border-bottom: #25282c 2px solid
+}
+.logo{
+  display: inline;
+  margin: 0 0 0 30px;
+}
+.logo img {
+  height: 30px;
+}
+.nav {
+  display: inline-block;
+  list-style: none;
+  position: absolute;
+  right: 0;
+}  
+.nav li {
+  display: inline-block;
+  margin-right: 3rem;
+  font-size: 1.5rem;
+}
+.nav li a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  height: 80vh;
+}
+.personjes {
+width: 10%;
+min-width: 150px;
+height: 100%;
+background-color: #25282c;
+display: inline-block;
+}
+.personajes_imgs {
+  margin: 0em;
+}
+.personajes_imgs img {
+  height: 120px;
+  margin: 1.5em;
+  background-color: #c1cdde;
+  border-radius: 10px;
+  display: block;
+}
+.info {
+  display: inline-block;
+  position: absolute;
+  width: 90%;
+  height: 80vh;
+  background-color: rgb(0, 0, 0);
+}
+.info-title {
+  text-align: center;
+  font-size: 3em;
+  color: aliceblue;
+}
+.info figure {
+  text-align: center;
+}
+.info img{
+height: 500px;
+text-align: center;
+}
+.footer {
+  width: 10px;
+  text-align: center;
+  border-top: #25282c 2px solid;
+}
+.media {
+  margin: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+.media a {
+  color: white;
+}

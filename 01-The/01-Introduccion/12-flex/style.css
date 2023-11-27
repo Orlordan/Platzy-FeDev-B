@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+.container {
+  border: 0.3rem solid black;
+}
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+.box1 {
+  background-color: blueviolet;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+.container {
+  border: 0.3rem solid black;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+}
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+.box1 {
+  background-color: blueviolet;
+}
+.box2 {
+  background-color: rgb(175, 222, 66);
+}
+.box3 {
+  background-color: rgb(78, 199, 232);
+}
+.box4 {
+  background-color: rgb(197, 126, 33);
+}
+.box5 {
+  background-color: rgb(186, 45, 132);
+}
+.box6 {
+  background-color: rgb(255, 45, 48);
+}

@@ -1,0 +1,13 @@
+p {
+  color: brown;
+  font-size: 30px;
+}
+/** selector tipo clase */
+.parra{
+  color: #d813c8;
+}
+/** ID */
+#parra2 {
+  color: blue;
+  font-size: 30px;
+}
